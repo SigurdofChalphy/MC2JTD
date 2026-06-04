@@ -43,6 +43,7 @@ class BasicCommands(commands.Cog):
     async def kill(self, ctx):
         await ctx.send("Shutting down...")
         await self.bot.close()
+        os.kill(os.getpid(), 9) # Force kill
 
     @kill.error
     async def kill_error(self, ctx, error):
@@ -112,6 +113,7 @@ class BasicCommands(commands.Cog):
     @commands.is_owner()
     async def restart(self, ctx):
         receiver = self.bot.cogs.get("MessageReceiver")
+        await ctx.send("Restarting...")
         if receiver:
             if receiver.watch_log_task:
                 receiver.watch_log_task.cancel()
