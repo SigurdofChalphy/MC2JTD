@@ -6,12 +6,11 @@ This bot was created for use in our personal server. Since we ran this server as
 
 ================ INSTRUCTIONS ================
 1. Start Minecraft / server
-2. Make sure latest.log exists
+2. Make sure latest.log exists. Copy the "logs" file pathway into the bot using mc2jtd.path or manually
 3. Run "run_macbook.sh" (MacBook) or "run_windows.bat" (Windows) [SEE BELOW]
 4. Keep the terminal open
 5. Test in Discord with mc2jtd.help
-6. Copy the "logs" file pathway into the bot using mc2jtd.path
-7. Test in Minecraft chat or trigger a Cobblemon notification
+6. Test in Minecraft chat or trigger a Cobblemon notification
 
 
 ============== MACBOOK SETUP ==============
