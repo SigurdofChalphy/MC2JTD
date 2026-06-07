@@ -5,7 +5,7 @@ from discord.ext import commands
 import asyncio
 import re
 import data.settings as config
-from utils.sftp import read_log_lines # from server
+# from utils.sftp import read_log_lines # from server
 
 class MessageReceiver(commands.Cog):
     def __init__(self, bot):
