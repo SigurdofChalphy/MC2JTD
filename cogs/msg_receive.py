@@ -1,7 +1,7 @@
 # cogs/msg_receive.py
 # MESSAGE RECEIVER FILE. ALSO SENDS MESSAGES ON DISCORD
 
-# @TristanofJugdral (Ver. 1.1.4 | 8 June 2026)
+# @TristanofJugdral (Ver. 1.1.6 | 10 June 2026)
 
 from discord.ext import commands
 import asyncio
